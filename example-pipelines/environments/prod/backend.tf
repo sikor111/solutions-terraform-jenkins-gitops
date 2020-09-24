@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "potent-trail-273913-tfstate"
     prefix = "env/prod"
   }
 }
